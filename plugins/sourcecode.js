@@ -9,7 +9,7 @@ let handler = async (m) => {
 let esce = `
 Bot ini Menggunakan Script Dari
 
-youtube.com/watch?v=LdB7EpcQwvA&feature=youtu.be`
+https://github.com/ai-man-123`
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
          hydratedTemplate: {
@@ -20,13 +20,13 @@ youtube.com/watch?v=LdB7EpcQwvA&feature=youtu.be`
            hydratedButtons: [{
              urlButton: {
                displayText: '💠 Source Code',
-               url: 'youtube.com/watch?v=LdB7EpcQwvA&feature=youtu.be'
+               url: 'https://github.com/ai-man-123'
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'Ok Bang',
+               displayText: 'Ok Bang/back to menu',
                id: '.menu',
              }
 
