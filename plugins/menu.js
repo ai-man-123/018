@@ -165,7 +165,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: '💠 Source Code',
+               displayText: '💠 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ',
                url: 'https://github.com/ai-man-123'
              }
 
