@@ -8,7 +8,7 @@ let handler = async (m) => {
     else who = m.sender
     let user = global.db.data.users[who]
 let premium = `
-*SHIRAORI BOT PRICE*
+* BOT PRICE*
 
 ◩ *FREE USER*
 └───────
@@ -35,7 +35,7 @@ let premium = `
            hydratedButtons: [{
              urlButton: {
                displayText: 'DONASI',
-               url: 'https://saweria.co/ilmanhdyt'
+               url: '0102810046'
              }
 
            },
