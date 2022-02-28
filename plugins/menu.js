@@ -20,7 +20,6 @@ let tags = {
   'kerang': 'MENU KERANG',
   'anime': 'MENU ANIME',
   'downloader': 'DOWNLOADER',
-  'nsfw': 'MENU NSFW',
   'tools': 'MENU TOOLS',
   'advanced': 'ADVANCED',
   'quotes': 'MENU QUOTES',
@@ -46,7 +45,7 @@ const defaultMenu = {
 ╭─❑ 「 INFORMASI 」 ❑──
 │ Bot ini masih tahap beta
 │ apabila ada bug/eror harap
-│ lapor ke owner
+│ lapor ke owner AZ
 ╰❑
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
@@ -167,13 +166,13 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            hydratedButtons: [{
              urlButton: {
                displayText: '💠 Source Code',
-               url: 'https://youtu.be/LdB7EpcQwvA'
+               url: 'https://github.com/ai-man-123'
              }
 
            },
              {
              quickReplyButton: {
-               displayText: '🧒 Owner',
+               displayText: '(¬_¬) Owner',
                id: '.owner',
              }
 
@@ -207,7 +206,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = ['help','m','menu','?']
+handler.command = ['help','m','menu','aiman']
 handler.owner = false
 handler.mods = false
 handler.premium = false
